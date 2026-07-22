@@ -4,11 +4,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
 public class ASeleniumTestOne {
-
-    public static void main(String[] args) {
-        /*
+    @Test
+    public void launchDifferentBrowsers()
+    {
+/*
         Open All Browsers and closed the same
          */
 
@@ -37,6 +39,6 @@ public class ASeleniumTestOne {
         edgeWebDriver.quit();
         System.out.println("Closed Edge Browser Through Selenium Successfully");
 
-
     }
+
 }
