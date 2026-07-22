@@ -21,7 +21,6 @@ public class ASeleniumTestOne {
         googleChromeWebDriver.quit();
         System.out.println("Closed Google Chrome Browser Through Selenium Successfully");
 
-
         System.out.println("2. Launch Firefox Browser Through Selenium");
         WebDriver firefoxWebDriver = new FirefoxDriver();
         firefoxWebDriver.get("https://www.amazon.in/ref=nav_logo");
@@ -29,16 +28,12 @@ public class ASeleniumTestOne {
         firefoxWebDriver.quit();
         System.out.println("Closed Firefox Browser Through Selenium Successfully");
 
-
-
-
         System.out.println("3. Launch Edge Browser Through Selenium");
         WebDriver edgeWebDriver = new EdgeDriver();
         edgeWebDriver.get("https://www.amazon.in/ref=nav_logo");
         System.out.println("Launched Edge Browser Through Selenium Successfully");
         edgeWebDriver.quit();
         System.out.println("Closed Edge Browser Through Selenium Successfully");
-
     }
 
 }
